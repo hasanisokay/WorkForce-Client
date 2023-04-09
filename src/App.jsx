@@ -13,7 +13,10 @@ const App = () => {
     <div className='container'>
       <ApiContext.Provider value={jobsData}>
         <Header></Header>
+        
+        <div className='my-4'>
         <Outlet></Outlet>
+        </div>
 
         <Footer></Footer>
 

@@ -10,6 +10,7 @@ import React from 'react';
 import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
+import Home from './components/Home';
 
 
 const router = createBrowserRouter([{
@@ -18,6 +19,10 @@ const router = createBrowserRouter([{
   errorElement: <ErrorPage></ErrorPage>,
   loader: () => fetch("data.json"),
   children:[
+    {
+      path:"/",
+      element: <Home></Home>
+    },
     {
       path:"statistics",
       element: <Statistics></Statistics>
