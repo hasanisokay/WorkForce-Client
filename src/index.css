@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container{
+    @apply lg:mx-6 lg:mt-4 
+}
+.ash-p-tag{
+    @apply text-slate-400
+}
+.active{
+    @apply text-blue-700
+}
