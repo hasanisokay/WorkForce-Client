@@ -1,0 +1,93 @@
+[
+    {
+      "company": "ABC Corporation",
+      "id": 1,
+      "jobTitle": "Software Engineer",
+      "location": "San Francisco",
+      "salary": 120000,
+      "jobType": "Remote",
+      "logoUrl": "https://example.com/abc-corp-logo.png"
+    },
+    {
+      "company": "XYZ Inc.",
+      "id": 2,
+      "jobTitle": "Data Analyst",
+      "location": "New York City",
+      "salary": 80000,
+      "jobType": "Full-Time",
+      "logoUrl": "https://example.com/xyz-inc-logo.png"
+    },
+    {
+      "company": "123 Co.",
+      "id": 3,
+      "jobTitle": "Marketing Manager",
+      "location": "Los Angeles",
+      "salary": 100000,
+      "jobType": "Remote",
+      "logoUrl": "https://example.com/123-co-logo.png"
+    },
+    {
+      "company": "Big Corp",
+      "id": 4,
+      "jobTitle": "Product Manager",
+      "location": "Chicago",
+      "salary": 130000,
+      "jobType": "Full-Time",
+      "logoUrl": "https://example.com/big-corp-logo.png"
+    },
+    {
+      "company": "Acme Inc.",
+      "id": 5,
+      "jobTitle": "Web Developer",
+      "location": "Seattle",
+      "salary": 90000,
+      "jobType": "Remote",
+      "logoUrl": "https://example.com/acme-inc-logo.png"
+    },
+    {
+      "company": "Tech Solutions",
+      "id": 6,
+      "jobTitle": "Systems Administrator",
+      "location": "Miami",
+      "salary": 95000,
+      "jobType": "Full-Time",
+      "logoUrl": "https://example.com/tech-solutions-logo.png"
+    },
+    {
+      "company": "Digital Agency",
+      "id": 7,
+      "jobTitle": "Graphic Designer",
+      "location": "Boston",
+      "salary": 70000,
+      "jobType": "Full-Time",
+      "logoUrl": "https://example.com/digital-agency-logo.png"
+    },
+    {
+      "company": "New Horizons",
+      "id": 8,
+      "jobTitle": "Project Manager",
+      "location": "Denver",
+      "salary": 110000,
+      "jobType": "Remote",
+      "logoUrl": "https://example.com/new-horizons-logo.png"
+    },
+    {
+      "company": "Tech Startup",
+      "id": 9,
+      "jobTitle": "Software Developer",
+      "location": "Austin",
+      "salary": 105000,
+      "jobType": "Remote",
+      "logoUrl": "https://example.com/tech-startup-logo.png"
+    },
+    {
+      "company": "Green Energy Co.",
+      "id": 10,
+      "jobTitle": "Sustainability Specialist",
+      "location": "Portland",
+      "salary": 85000,
+      "jobType": "Full-Time",
+      "logoUrl": "https://example.com/green-energy-co-logo.png"
+    }
+  ]
+  
