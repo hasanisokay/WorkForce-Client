@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 import Header from './components/Header';
-import { useLoaderData } from 'react-router-dom';
+import { Outlet, useLoaderData } from 'react-router-dom';
 import Footer from './components/Footer';
 
 
@@ -12,7 +12,11 @@ const App = () => {
   return (
     <div>
       <ApiContext.Provider value={jobsData}>
+        
+        <Outlet></Outlet>
+
         <Footer></Footer>
+
       </ApiContext.Provider>
       
     </div>
