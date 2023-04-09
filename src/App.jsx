@@ -10,7 +10,7 @@ export const ApiContext = createContext([])
 const App = () => {
   const jobsData = useLoaderData()
   return (
-    <div className='container'>
+    <div>
       <ApiContext.Provider value={jobsData}>
         <Header></Header>
         
