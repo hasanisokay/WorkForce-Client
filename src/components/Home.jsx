@@ -5,13 +5,13 @@ const Home = () => {
     return (
         <>
             {/* home-top */}
-            <div className='flex justify-evenly items-center mx-12'>
-                <div>
+            <div className='flex flex-col lg:flex-row-reverse justify-evenly lg:items-center items-stretch mx-12'>
+                <img src={person} alt="person" className='w-[40%]' />
+                <div className=''>
                     <h1 className='text-4xl mb-8'>Get Your <span className='text-green-400'>Dream Job Now!</span></h1>
                     <p className='ash-p-tag mb-6'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className="btn btn-success">Get Started</button>
                 </div>
-                <img src={person} alt="person" className='w-[40%] ' />
 
             </div>
 

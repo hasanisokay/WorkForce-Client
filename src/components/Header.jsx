@@ -23,11 +23,11 @@ const Header = () => {
                     )
                 }
                 {isMenuOpen && (
-                    <div onClick={() => setisMenuOpen(false)} className='flex flex-col items-center'>
+                    <div onClick={() => setisMenuOpen(false)} className='flex bg-cyan-800 rounded text-black absolute top-0 left-0 right-0 flex-col items-center'>
                         <button> <XMarkIcon className='w-10 h-10'></XMarkIcon> </button>
                         <div className='flex flex-col gap-4'>
-                            <Link to={'/'} className='text-2xl font-bold text-yellow-700'>WorkForce</Link>
-                            <div className='ash-p-tag space-y-4 flex flex-col'>
+                            <Link to={'/'} className='text-2xl font-bold text-yellow-600'>WorkForce</Link>
+                            <div className='space-y-4 flex flex-col'>
                                 <NavLink to={'statistics'}> Statistics</NavLink>
                                 <NavLink to={'applied-jobs'}> Applied Jobs</NavLink>
                                 <NavLink to={'blog'}> Blog</NavLink>
