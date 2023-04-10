@@ -14,7 +14,7 @@ const App = () => {
       <ApiContext.Provider value={jobsData}>
         <Header></Header>
         
-        <div className='my-4'>
+        <div className=''>
         <Outlet></Outlet>
         </div>
 

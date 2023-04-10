@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "companyLogo": "https://example.com/logo1.svg",
+    "jobTitle": "Frontend Developer",
+    "companyName": "ABC Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are looking for a frontend developer to help build our next-generation web applications.",
+    "jobResponsibility": "Responsibilities include building and maintaining web applications, writing clean and efficient code, and working closely with other developers and stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of experience with JavaScript, HTML, CSS, and related web technologies",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "2",
+    "companyLogo": "https://example.com/logo2.svg",
+    "jobTitle": "Backend Developer",
+    "companyName": "XYZ Corp.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $120,000",
+    "jobDescription": "We are seeking a talented backend developer to help build and maintain our scalable, high-performance web applications.",
+    "jobResponsibility": "Responsibilities include developing server-side logic, writing APIs, and working with databases and other technologies.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "5+ years of experience with Python, Ruby, or other backend technologies",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "3",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Product Manager",
+    "companyName": "Acme Co.",
+    "remoteOrOnsite": "Remote",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $140,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "7+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "4",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Laravel Expart",
+    "companyName": "Acme Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $130,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "7+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "5",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Laravel Expart",
+    "companyName": "Acme Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $130,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "7+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "6",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Financial Advisor",
+    "companyName": "HaHa Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $130,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "3+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "7",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Laravel Expart",
+    "companyName": "Hehe Co.",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $130,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "2+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": "8",
+    "companyLogo": "https://example.com/logo3.svg",
+    "jobTitle": "Laravel Expart",
+    "companyName": "Giga co.",
+    "remoteOrOnsite": "Remote",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $130,000",
+    "jobDescription": "We are looking for an experienced Product Manager to lead the development and execution of our product roadmap.",
+    "jobResponsibility": "Responsibilities include gathering and prioritizing product requirements, defining product vision, and working closely with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Business Administration, Marketing, or related field",
+    "experiences": "1+ years of experience in product management, preferably in a technology or SaaS company",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@example.com"
+    }
+  }
+]

@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { ApiContext } from '../App';
+
 import footerImage from "../assets/Icons/Group 9969.png"
 
 const Footer = () => {
-    const data = useContext(ApiContext)
+
     return (
         <div className='bg-slate-950 grid lg:grid-cols-5 text-center lg:py-8 lg:gap-2 lg:px-12 '>
              <div>

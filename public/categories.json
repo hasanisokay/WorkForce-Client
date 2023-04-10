@@ -1,0 +1,26 @@
+[
+      {
+        "id": 1,
+        "logo": "chip.png",
+        "categoryName": "Technology",
+        "numJobsAvailable": 200
+      },
+      {
+        "id": 2,
+        "logo": "accounts.png",
+        "categoryName": "Healthcare",
+        "numJobsAvailable": 250
+      },
+      {
+        "id": 3,
+        "logo": "business.png",
+        "categoryName": "Finance",
+        "numJobsAvailable": 300
+      },
+      {
+        "id": 4,
+        "logo": "social-media.png",
+        "categoryName": "Education",
+        "numJobsAvailable": 400
+      }
+    ]

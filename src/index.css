@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container{
-    @apply lg:mx-6 lg:mt-4
+    @apply lg:px-6 lg:pt-4
 }
 .ash-p-tag{
     @apply text-slate-400
