@@ -11,8 +11,6 @@ const Jobs = ({ jobsData }) => {
         setExpand(true)
 
     }
-
-
     
     return (
         <>

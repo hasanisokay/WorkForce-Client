@@ -12,20 +12,21 @@ import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import Home from './components/Home';
 import JobDetails from './components/JobDetails';
+import { jobsData } from './utilities/getJobsData';
 
 
 const router = createBrowserRouter([{
   path: "/",
   element: <App></App>,
   errorElement: <ErrorPage></ErrorPage>,
-  loader: () => fetch("jobsData.json"),
+  loader: jobsData,
   children:[
     {
       path:"/",
       element: <Home></Home>
     },
     {
-      path:"job/:id",
+      path:"/:job/:id",
       element:<JobDetails></JobDetails>
     },
     {

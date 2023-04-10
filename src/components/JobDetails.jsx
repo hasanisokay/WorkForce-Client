@@ -2,13 +2,16 @@ import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { ApiContext } from '../App';
 import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, PhoneArrowUpRightIcon, PhoneIcon } from '@heroicons/react/24/solid';
+import { saveToLocal } from '../utilities/saveToLocalStorage';
 
 const JobDetails = () => {
     const { id } = useParams()
     const jobsData = useContext(ApiContext)
     const jobClicked = jobsData.find(job => job.id == id)
     const { jobResponsibility, educationalRequirements, jobDescription, experiences, jobTitle, companyName, location, contactInformation, salary } = jobClicked
-    console.log(jobClicked);
+    const handleApplyNow = ()=>{
+        saveToLocal(jobClicked)
+    }
     return (
         <div>
             <h1 className='font-bold text-4xl text-center p-12 bg-gray-200 mb-12'> Job Details</h1>
@@ -30,7 +33,7 @@ const JobDetails = () => {
                         <div className='flex items-center gap-2 my-2'> <PhoneIcon className='w-5 h-5'></PhoneIcon> <span className='text-lg font-semibold'>Phone:</span>{contactInformation["phone"]} </div>
                         <div className='flex items-center gap-2'> <EnvelopeIcon className='w-5 h-5'></EnvelopeIcon> <span className='text-lg font-semibold'>Phone</span> {contactInformation["email"]} </div>
                     </div>
-                    <button className='btn btn-success w-full mb-6'>Apply Now</button>
+                    <button className='btn btn-success w-full mb-6' onClick={()=>handleApplyNow()}>Apply Now</button>
                 </div>
             </div>
         </div>
