@@ -4,7 +4,7 @@ import { Bars3BottomLeftIcon, XMarkIcon } from '@heroicons/react/24/solid'
 const Header = () => {
     const [isMenuOpen, setisMenuOpen] = useState(false)
     return (
-        <nav>
+        <nav className=''>
             <div className=' lg:py-4 lg:px-8 lg:flex justify-between hidden bg-gray-200'>
                 <Link to={'/'} className='text-2xl font-bold'>WorkForce</Link>
                 <div className='ash-p-tag flex gap-8'>

@@ -6,13 +6,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ErrorPage from './components/ErrorPage';
-import React from 'react';
+import React, { PureComponent } from 'react';
 import Statistics from './components/Statistics';
 import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import Home from './components/Home';
 import JobDetails from './components/JobDetails';
 import { jobsData } from './utilities/getJobsData';
+
 
 
 const router = createBrowserRouter([{
