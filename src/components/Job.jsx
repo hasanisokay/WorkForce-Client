@@ -3,9 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Job = ({ jobData }) => {
-    const handleDetailsButton = ()=>{
 
-    } 
     const { id, logo, jobTitle, companyName, jobType, location, fulltimeOrParttime, salary } = jobData
     return (
         <div className='p-12 rounded border border-slate-300 p-4'>

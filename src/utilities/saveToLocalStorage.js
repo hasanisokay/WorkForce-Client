@@ -1,11 +1,17 @@
 import Swal from "sweetalert2"
 
 export const saveToLocal = (jobClicked)=>{
+
     let storageArray = []
-    const savedLocalStorage = localStorage.getItem('applied-job')
-    if(savedLocalStorage){
-        storageArray.push(savedLocalStorage)
-        if(storageArray.find(id => id===jobClicked)){
+    
+    const savedLocalStorage = JSON.parse(localStorage.getItem('applied-job'))
+
+    if(!savedLocalStorage){
+        storageArray.push(jobClicked)
+        localStorage.setItem("applied-job", JSON.stringify(storageArray) )
+    }
+    else{
+        if(savedLocalStorage.find(id=> id===jobClicked)){
             return Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -14,12 +20,13 @@ export const saveToLocal = (jobClicked)=>{
               })
         }
         else{
-            storageArray.push(jobClicked)
-            localStorage.setItem('applied-job',storageArray)
-        }       
+            savedLocalStorage.push(jobClicked)
+            localStorage.setItem("applied-job", JSON.stringify(savedLocalStorage))
+            Swal.fire(
+                'Applied!',
+                'Applied Successfully',
+                'success'
+              )
+        }
     }
-    else{
-        localStorage.setItem('applied-job',jobClicked)
-    }
-
 }
