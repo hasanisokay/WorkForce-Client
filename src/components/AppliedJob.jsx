@@ -12,11 +12,11 @@ const AppliedJob = ({ job }) => {
                 <div>
                     <h1 className='text-xl font-bold mt-6'>{jobTitle}</h1>
                     <h2 className='text-xl font-bold text-gray-400 mt-1'>{companyName}</h2>
-                    <div className=' mt-4 mb-2 justify-center lg:justify-start flex gap-6'>
+                    <div className=' mt-4 mb-2 justify-center lg:justify-start flex lg:gap-6 gap-4'>
                         <button className="btn btn-success btn-outline btn-sm">{jobType}</button>
                         <button className="btn btn-success btn-outline btn-sm">{fulltimeOrParttime}</button>
                     </div>
-                    <div className='lg:flex gap-8'>
+                    <div className='lg:flex lg:gap-8'>
                         <div className='flex items-center justify-center gap-2'>
                             <MapPinIcon className='w-5 h-5 text-gray-500'></MapPinIcon> <p className='ash-p-tag'>{location}</p>
                         </div>

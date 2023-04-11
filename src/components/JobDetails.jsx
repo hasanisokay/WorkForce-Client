@@ -14,17 +14,17 @@ const JobDetails = () => {
     }
     return (
         <div>
-            <h1 className='font-bold text-4xl text-center p-12 bg-gray-200 mb-12'> Job Details</h1>
+            <h1 className='font-bold lg:text-4xl font-xl text-center lg:p-12 p-2 bg-gray-200 lg:mb-12 mb-6'> Job Details</h1>
             <div className='grid lg:grid-cols-3 gap-2 lg:mx-4'>
-                <div className='lg:col-span-2 p-8'>
+                <div className='lg:col-span-2 lg:p-8 ml-4'>
                     <h1 className='mb-4'> <span className='font-semibold text-lg'>Job Description: </span> <span className='ash-p-tag'>{jobDescription}</span> </h1>
                     <h1 className='mb-4'> <span className='font-semibold text-lg'>Job Responsibility: </span> <span className='ash-p-tag'>{jobResponsibility}</span> </h1>
                     <h1 className='mb-4'> <span className='font-semibold text-lg'>Educational Requirements: </span> <br /> <span className='ash-p-tag'>{educationalRequirements}</span> </h1>
                     <h1 className='mb-4'> <span className='font-semibold text-lg'>Experiences: </span> <br /> <span className='ash-p-tag'>{experiences}</span> </h1>
                 </div>
-                <div className=''>
-                    <div className='bg-gray-200 p-8 mb-4 rounded'>
-                        <h1 className='font-bold text-xl my-6'>Job Details</h1>
+                <div className='overflow-hidden'>
+                    <div className='bg-gray-200 lg:p-8 overflow-hidden mb-4 rounded'>
+                        <h1 className='font-bold text-xl ml-2 my-6'>Job Details</h1>
                         <hr className=' w-[90%] h-px m-auto border-gray-400' />
                         <div className='flex items-center gap-2 my-2'><CurrencyDollarIcon className='w-5 h-5'></CurrencyDollarIcon> <span className='text-lg font-semibold'>Sallary: </span>{salary} (Per Month)</div>
                         <div className='flex items-center gap-2'><CalendarDaysIcon className='w-5 h-5'></CalendarDaysIcon> <span className='text-lg font-semibold'>Job Title:</span> {jobTitle}</div>
@@ -33,7 +33,7 @@ const JobDetails = () => {
                         <div className='flex items-center gap-2 my-2'> <PhoneIcon className='w-5 h-5'></PhoneIcon> <span className='text-lg font-semibold'>Phone:</span>{contactInformation["phone"]} </div>
                         <div className='flex items-center gap-2'> <EnvelopeIcon className='w-5 h-5'></EnvelopeIcon> <span className='text-lg font-semibold'>Phone</span> {contactInformation["email"]} </div>
                     </div>
-                    <button className='btn btn-success w-full mb-6' onClick={()=>handleApplyNow()}>Apply Now</button>
+                    <button className='btn btn-success lg:w-full' onClick={()=>handleApplyNow()}>Apply Now</button>
                 </div>
             </div>
         </div>

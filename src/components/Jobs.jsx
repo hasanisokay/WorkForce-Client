@@ -14,7 +14,7 @@ const Jobs = ({ jobsData }) => {
     
     return (
         <>
-            <div className={`grid lg:grid-cols-2 mx-8 mt-4 gap-8 ${expand && "mb-8" }` }>
+            <div className={`grid lg:grid-cols-2 lg:mx-8 mt-4 lg:gap-8 gap-3 ${expand && "mb-8" }` }>
                 {
                     initialJobsData.map(jobData => <Job jobData={jobData} key={jobData.id}></Job>)
                 }

@@ -34,8 +34,8 @@ const AppliedJobs = () => {
      }
 
     return (
-        <div>
-            <h1 className='text-center text-4xl font-bold lg:py-12 lg:bg-gray-200'>Applied Jobs</h1>
+        <div className='overflow-hidden'>
+            <h1 className='text-center lg:text-4xl text-xl font-bold lg:py-12 lg:bg-gray-200'>Applied Jobs</h1>
             <div className='mt-4 lg:flex lg:justify-end lg:mr-8'> 
                 <select id='select' className="select bg-slate-100 select-bordered lg:w-full max-w-xs" onChange={()=>filterHandler()}>
                     <option value={"f"}>Filter By</option>

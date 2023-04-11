@@ -6,8 +6,8 @@ const Job = ({ jobData }) => {
 
     const { id, logo, jobTitle, companyName, jobType, location, fulltimeOrParttime, salary } = jobData
     return (
-        <div className='p-12 rounded border border-slate-300 p-4'>
-            <img src={logo} alt="" />
+        <div className='lg:p-12 rounded border border-slate-300 p-4 overflow-hidden'>
+            <img src={logo} alt="" className='obejct-cover' />
             <h1 className='text-xl font-bold mt-6'>{jobTitle}</h1>
             <h2 className='text-xl font-bold text-gray-400 mt-1'>{companyName}</h2>
             <div className='flex gap-6 mt-4'>
