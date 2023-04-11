@@ -10,17 +10,17 @@ const JobDetails = () => {
     const jobClicked = jobsData.find(job => job.id == id)
     const { jobResponsibility, educationalRequirements, jobDescription, experiences, jobTitle, companyName, location, contactInformation, salary } = jobClicked
     const handleApplyNow = ()=>{
-        saveToLocal(jobClicked)
+        saveToLocal(jobClicked.id)
     }
     return (
         <div>
             <h1 className='font-bold text-4xl text-center p-12 bg-gray-200 mb-12'> Job Details</h1>
             <div className='grid lg:grid-cols-3 gap-2 lg:mx-4'>
                 <div className='lg:col-span-2 p-8'>
-                    <h1> <span className='font-semibold text-lg'>Job Description: </span> <span className='ash-p-tag'>{jobDescription}</span> </h1>
-                    <h1> <span className='font-semibold text-lg'>Job Responsibility: </span> <span className='ash-p-tag'>{jobResponsibility}</span> </h1>
-                    <h1> <span className='font-semibold text-lg'>Educational Requirements: </span> <br /> <span className='ash-p-tag'>{educationalRequirements}</span> </h1>
-                    <h1> <span className='font-semibold text-lg'>Experiences: </span> <br /> <span className='ash-p-tag'>{experiences}</span> </h1>
+                    <h1 className='mb-4'> <span className='font-semibold text-lg'>Job Description: </span> <span className='ash-p-tag'>{jobDescription}</span> </h1>
+                    <h1 className='mb-4'> <span className='font-semibold text-lg'>Job Responsibility: </span> <span className='ash-p-tag'>{jobResponsibility}</span> </h1>
+                    <h1 className='mb-4'> <span className='font-semibold text-lg'>Educational Requirements: </span> <br /> <span className='ash-p-tag'>{educationalRequirements}</span> </h1>
+                    <h1 className='mb-4'> <span className='font-semibold text-lg'>Experiences: </span> <br /> <span className='ash-p-tag'>{experiences}</span> </h1>
                 </div>
                 <div className=''>
                     <div className='bg-gray-200 p-8 mb-4 rounded'>

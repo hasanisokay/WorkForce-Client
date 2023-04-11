@@ -7,7 +7,7 @@ import { ApiContext } from '../App';
 const Home = () => {
     const [categories,setCategory] = useState([])
     useEffect(()=>{
-        fetch("categories.json") .then(res=>res.json()) .then(data=>setCategory(data))
+        fetch("/categories.json") .then(res=>res.json()) .then(data=>setCategory(data))
     },[])
     const jobsData = useContext(ApiContext)
 
